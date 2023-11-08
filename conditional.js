@@ -34,3 +34,32 @@ function fizzbuzz(num)
 fizzbuzz(35);
 fizzbuzz(15);
 fizzbuzz(98);
+
+function largestnum(num1,num2,num3,num4,num5)
+{
+    console.log(num1,num2,num3,num4,num5);
+    if(num1>num2 && num1> num3 && num1>num4 && num1>num5)
+    {
+        console.log("largest number",num1);
+    }
+    else if(num2>num1 && num2>num3 && num2>num4 && num2>num5)
+    {
+        console.log("largest number",num2);
+    }
+    else if(num3>num1 && num3>num2 && num3>num4 && num3>num5)
+    {
+        console.log("largest number",num3);
+    }
+    else if(num4>num1 && num4>num2 && num4>num3&& num4>num5)
+    {
+        console.log("largest number",num4);
+    }
+    else if(num5>num1 && num5>num2 && num5>num3&& num5>num4)
+    {
+        console.log("largest number",num5);
+    }
+    else{
+        console.log("undefined");
+    }
+}
+largestnum(100,23,43,89,90);
