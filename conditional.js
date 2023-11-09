@@ -63,3 +63,17 @@ function largestnum(num1,num2,num3,num4,num5)
     }
 }
 largestnum(100,23,43,89,90);
+
+function speed(dist,time)
+{
+    let speed= (dist/time);
+    if(speed>40)
+    {
+        console.log("Apply Brake");
+    }
+    else
+    {
+        console.log("Keep going");
+    }
+}
+speed(2500,50);
