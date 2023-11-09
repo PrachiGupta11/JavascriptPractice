@@ -82,3 +82,20 @@ function operators2(num1, num2){
     }
 }
 operators2(num1,num2);
+
+function sqr(num)
+{
+    if(num%3==0)
+    {
+        let sqrroot=num*num;
+        console.log("sqaure root of",num,"is:",sqrroot);
+    }
+    else if(num%3!=0)
+    {
+        let rem=num%3;
+        value=3-rem;
+        console.log("number to be add to make it",num,"divisible by 3 is:",value);
+    }
+}
+sqr(7);
+sqr(9);
